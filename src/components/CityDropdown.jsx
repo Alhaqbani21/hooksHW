@@ -2,7 +2,7 @@ import React from 'react';
 
 function CityDropdown(props) {
   return (
-    <label className="form-control max-md:max-w-xs w-[30rem]" dir="rtl">
+    <label className="form-control  w-[100%]" dir="rtl">
       <div className="label flex flex-row">
         <span className="label-text text-right">{props.name}</span>
       </div>

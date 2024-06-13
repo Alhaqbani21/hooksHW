@@ -2,7 +2,7 @@ import React from 'react';
 
 function Input1(props) {
   return (
-    <label className="form-control  max-md:max-w-xs w-[30rem] ">
+    <label className="form-control  w-[100%] ">
       <div className="label flex flex-row-reverse">
         <span className="label-text text-right">{props.name}</span>
       </div>

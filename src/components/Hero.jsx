@@ -108,7 +108,7 @@ function Hero() {
   return (
     <>
       {showSuccess && (
-        <div className="flex justify-end p-2 bg-[#191E24]">
+        <div className="flex justify-end p-2 bg-[#191E24] ">
           <div
             role="alert"
             className="alert alert-success text-green-600 text-center flex flex-row-reverse w-[20rem]"
@@ -132,9 +132,9 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero min-h-screen bg-base-200 ">
+      <div className="hero min-h-screen bg-base-200  ">
         <div className="hero-content text-center ">
-          <div className="max-w-[100vw] flex flex-col justify-center gap-5 bg-gray-800 p-10 rounded max-md:p-14 lg:p-28">
+          <div className="max-w-[100vw] flex flex-col justify-center gap-5 bg-gray-800 p-7 rounded lg:p-28 max-md:p-8 max-md:w-[75vw] lg:w-[90vw]">
             <h1 className="text-xl max-md:text-sm">
               نموذج تقديم على وظيفة مطور واجهات
             </h1>
